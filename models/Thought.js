@@ -34,4 +34,4 @@ Thought.create(
     (err) => (err ? handleError(err) : console.log('Created new document'))
 );
 
-module.exports = User;
+module.exports = Thought;
