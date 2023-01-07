@@ -1,3 +1,8 @@
+// todo:
+// make readme
+// make video
+// finish seed.js (requires using get routes)
+
 const express = require('express');
 const connection = require('./config/connection.js');
 const routes = require('./routes');

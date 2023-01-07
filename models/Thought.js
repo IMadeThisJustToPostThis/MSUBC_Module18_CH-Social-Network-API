@@ -11,8 +11,7 @@ const thoughtSchema = new mongoose.Schema(
     {
         toJSON: {
             virtuals: true
-        },
-        id: false
+        }
     }
 );
 
@@ -28,7 +27,7 @@ Thought.create(
     {
         text: 'Thought Text',
         date: Date.now,
-        user: 'Mat123',
+        user: '63b0a676b9ff2ed2e6d17ab8',
         reactions: []
     },
     (err) => (err ? handleError(err) : console.log('Created new document'))
